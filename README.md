@@ -6,7 +6,7 @@ Para adicionar o formulário, basta usar o shortcode <code>[woo-registration-for
 
 # Notes
 * Esse plugin foi criado para ser usado especificamente em um projeto
-* Foi testado em um tema especifico e no tema padrãp Storefront
+* Foi testado em um tema especifico e no tema padrão **Storefront**
 * Por enquanto o funcionamento não é garantido em outros temas
 * Todos os campos do formulário de cobrança do WooCommerce foram validados e são obrigatórios, inclusive os campos do plugin **Extra Checkouts Fields for Brazil**.
 * Esse código é livre para ser modificado para suas necessidades
