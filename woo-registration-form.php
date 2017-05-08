@@ -2,7 +2,7 @@
 /**
  * Plugin Name: DW Woo Registration Form
  * Plugin URI: https://dantewebmaster.com
- * Description: Cria um shortcode para poder inserir um formlário de cadastro do WooCommerce mais completo.
+ * Description: Cria um shortcode para poder inserir um formulário de cadastro do WooCommerce mais completo.
  * Version: 1.0
  * Author: Dante Webmaster
  * Author URI: https://dantewebmaster.com/
@@ -43,9 +43,6 @@ function dw_filter_extra_fields( $fields ) {
     $fields['billing_company']['required'] = true;
 	$fields['billing_neighborhood']['required'] = true;
 	$fields['billing_cnpj']['required'] = true;
-	
-	
-	$fields['billing']['billing_company']['label'] = 'My new label';
 	
     // Change and add placeholder to fields
     $fields['billing_first_name']['placeholder'] = 'Primeiro nome';
